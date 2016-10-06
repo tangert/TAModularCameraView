@@ -14,6 +14,7 @@
 		3649746C1DA69C9C0040B3F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3649746A1DA69C9C0040B3F1 /* LaunchScreen.storyboard */; };
 		364974771DA69C9C0040B3F1 /* TRModularCameraViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364974761DA69C9C0040B3F1 /* TRModularCameraViewTests.swift */; };
 		364974821DA69C9C0040B3F1 /* TRModularCameraViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364974811DA69C9C0040B3F1 /* TRModularCameraViewUITests.swift */; };
+		364974901DA69CBC0040B3F1 /* CameraView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3649748F1DA69CBC0040B3F1 /* CameraView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3649747D1DA69C9C0040B3F1 /* TRModularCameraViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRModularCameraViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		364974811DA69C9C0040B3F1 /* TRModularCameraViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRModularCameraViewUITests.swift; sourceTree = "<group>"; };
 		364974831DA69C9C0040B3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3649748F1DA69CBC0040B3F1 /* CameraView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				364974611DA69C9C0040B3F1 /* AppDelegate.swift */,
 				364974631DA69C9C0040B3F1 /* ViewController.swift */,
+				3649748F1DA69CBC0040B3F1 /* CameraView.xib */,
 				364974651DA69C9C0040B3F1 /* Main.storyboard */,
 				364974681DA69C9C0040B3F1 /* Assets.xcassets */,
 				3649746A1DA69C9C0040B3F1 /* LaunchScreen.storyboard */,
@@ -237,6 +240,7 @@
 			files = (
 				3649746C1DA69C9C0040B3F1 /* LaunchScreen.storyboard in Resources */,
 				364974691DA69C9C0040B3F1 /* Assets.xcassets in Resources */,
+				364974901DA69CBC0040B3F1 /* CameraView.xib in Resources */,
 				364974671DA69C9C0040B3F1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
