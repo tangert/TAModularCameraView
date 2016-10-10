@@ -10,7 +10,7 @@ import Foundation
 import AVKit
 import UIKit
 
-class CameraViewCell: PlaceholderCell {
+class CameraViewCell: UITableViewCell {
     
     @IBOutlet weak var cameraView: UIImageView!
     

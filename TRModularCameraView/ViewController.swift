@@ -14,8 +14,8 @@ class ViewController: UIViewController {
     var images: [UIImage] = [UIImage]()
     var placeholderCellNib: UINib? = UINib(nibName: "PlaceholderCell", bundle:nil)
     var cameraViewNib: UINib? = UINib(nibName: "CameraViewCell", bundle: nil)
-    @IBOutlet weak var collectionView: UICollectionView!
-    
+
+    @IBOutlet weak var tableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -24,11 +24,11 @@ class ViewController: UIViewController {
             images.append(UIImage(named: "\(i+1)")!)
         }
         
-        self.collectionView.delegate = self
-        self.collectionView.dataSource = self
-        self.collectionView.register(placeholderCellNib, forCellWithReuseIdentifier: "placeholderCell")
-        self.collectionView.register(cameraViewNib, forCellWithReuseIdentifier: "cameraViewCell")
-        self.collectionView.contentInset = UIEdgeInsets(top: 30, left: 0, bottom: 0, right: 0)
+        self.tableView.delegate = self
+        self.tableView.dataSource = self
+        self.tableView.register(placeholderCellNib, forCellReuseIdentifier: "placeholderCell")
+        self.tableView.register(cameraViewNib, forCellReuseIdentifier: "cameraViewCell")
+        self.tableView.contentInset = UIEdgeInsets(top: 30, left: 0, bottom: 0, right: 0)
         
     }
 
@@ -41,25 +41,30 @@ class ViewController: UIViewController {
 }
 
 
-extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
+extension ViewController: UITableViewDelegate, UITableViewDataSource {
     
-    func numberOfSections(in collectionView: UICollectionView) -> Int {
+    func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
     
-    func collectionView(_ collectionView: UICollectionView,
-                                 numberOfItemsInSection section: Int) -> Int {
+    
+    func tableView(_ tableView: UITableView,
+                                 numberOfRowsInSection section: Int) -> Int {
         return self.images.count
     }
     
-    func collectionView(_ collectionView: UICollectionView,
-                                 cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 375
+    }
+    
+    func tableView(_ tableView: UITableView,
+                                 cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         
         //every 4th cell except the first one, it shows a camera view as an emotional "checkpoint"
         if (indexPath.row % 4 == 0 && indexPath.row != 0) {
             
-            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cameraViewCell", for: indexPath) as! CameraViewCell
+            let cell = tableView.dequeueReusableCell(withIdentifier: "cameraViewCell", for: indexPath) as! CameraViewCell
             
             cell.layer.cornerRadius = 10
             cell.layer.masksToBounds = true
@@ -68,7 +73,7 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
             
         } else {
             
-            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "placeholderCell", for: indexPath) as! PlaceholderCell
+            let cell = tableView.dequeueReusableCell(withIdentifier: "placeholderCell", for: indexPath) as! PlaceholderCell
             cell.placeholderImage.image = images[indexPath.row]
             
             cell.layer.cornerRadius = 10

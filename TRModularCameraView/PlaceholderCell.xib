@@ -9,23 +9,23 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="placeholderCell" reuseIdentifier="placeholderCell" id="Mge-9F-SxD" customClass="PlaceholderCell" customModule="TRModularCameraView" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
+            <rect key="frame" x="0.0" y="0.0" width="370" height="370"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
+                <rect key="frame" x="0.0" y="0.0" width="370" height="370"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nZa-XJ-7kY">
-                        <frame key="frameInset" width="250" height="250"/>
+                        <frame key="frameInset" width="370" height="370"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     </imageView>
                 </subviews>
             </view>
-            <size key="customSize" width="270" height="248"/>
+            <size key="customSize" width="391" height="370"/>
             <connections>
                 <outlet property="placeholderImage" destination="nZa-XJ-7kY" id="Fdc-E1-qmM"/>
             </connections>
-            <point key="canvasLocation" x="-82" y="-115"/>
+            <point key="canvasLocation" x="-21.5" y="-54"/>
         </collectionViewCell>
     </objects>
 </document>
