@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3649745D1DA69C9C0040B3F1"
-               BuildableName = "TRModularCameraView.app"
-               BlueprintName = "TRModularCameraView"
-               ReferencedContainer = "container:TRModularCameraView.xcodeproj">
+               BuildableName = "TAModularCameraView.app"
+               BlueprintName = "TAModularCameraView"
+               ReferencedContainer = "container:TAModularCameraView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "364974711DA69C9C0040B3F1"
-               BuildableName = "TRModularCameraViewTests.xctest"
-               BlueprintName = "TRModularCameraViewTests"
-               ReferencedContainer = "container:TRModularCameraView.xcodeproj">
+               BuildableName = "TAModularCameraViewTests.xctest"
+               BlueprintName = "TAModularCameraViewTests"
+               ReferencedContainer = "container:TAModularCameraView.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3649747C1DA69C9C0040B3F1"
-               BuildableName = "TRModularCameraViewUITests.xctest"
-               BlueprintName = "TRModularCameraViewUITests"
-               ReferencedContainer = "container:TRModularCameraView.xcodeproj">
+               BuildableName = "TAModularCameraViewUITests.xctest"
+               BlueprintName = "TAModularCameraViewUITests"
+               ReferencedContainer = "container:TAModularCameraView.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3649745D1DA69C9C0040B3F1"
-            BuildableName = "TRModularCameraView.app"
-            BlueprintName = "TRModularCameraView"
-            ReferencedContainer = "container:TRModularCameraView.xcodeproj">
+            BuildableName = "TAModularCameraView.app"
+            BlueprintName = "TAModularCameraView"
+            ReferencedContainer = "container:TAModularCameraView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3649745D1DA69C9C0040B3F1"
-            BuildableName = "TRModularCameraView.app"
-            BlueprintName = "TRModularCameraView"
-            ReferencedContainer = "container:TRModularCameraView.xcodeproj">
+            BuildableName = "TAModularCameraView.app"
+            BlueprintName = "TAModularCameraView"
+            ReferencedContainer = "container:TAModularCameraView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3649745D1DA69C9C0040B3F1"
-            BuildableName = "TRModularCameraView.app"
-            BlueprintName = "TRModularCameraView"
-            ReferencedContainer = "container:TRModularCameraView.xcodeproj">
+            BuildableName = "TAModularCameraView.app"
+            BlueprintName = "TAModularCameraView"
+            ReferencedContainer = "container:TAModularCameraView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TRModularCameraView.xcodeproj">
+      location = "self:/Users/tylerangert/Desktop/empa/TRModularCameraView/TAModularCameraView.xcodeproj">
    </FileRef>
 </Workspace>

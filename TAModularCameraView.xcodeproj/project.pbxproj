@@ -12,9 +12,10 @@
 		364974671DA69C9C0040B3F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 364974651DA69C9C0040B3F1 /* Main.storyboard */; };
 		364974691DA69C9C0040B3F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 364974681DA69C9C0040B3F1 /* Assets.xcassets */; };
 		3649746C1DA69C9C0040B3F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3649746A1DA69C9C0040B3F1 /* LaunchScreen.storyboard */; };
-		364974771DA69C9C0040B3F1 /* TRModularCameraViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364974761DA69C9C0040B3F1 /* TRModularCameraViewTests.swift */; };
-		364974821DA69C9C0040B3F1 /* TRModularCameraViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364974811DA69C9C0040B3F1 /* TRModularCameraViewUITests.swift */; };
+		364974771DA69C9C0040B3F1 /* TAModularCameraViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364974761DA69C9C0040B3F1 /* TAModularCameraViewTests.swift */; };
+		364974821DA69C9C0040B3F1 /* TAModularCameraViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364974811DA69C9C0040B3F1 /* TAModularCameraViewUITests.swift */; };
 		364974901DA69CBC0040B3F1 /* CameraViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3649748F1DA69CBC0040B3F1 /* CameraViewCell.xib */; };
+		3682B60F1DABEFD80017828B /* FrontCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3682B60E1DABEFD80017828B /* FrontCameraView.swift */; };
 		36A9F2951DA6D1E900447E36 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A9F2941DA6D1E900447E36 /* Extensions.swift */; };
 		36A9F29A1DA6D46500447E36 /* PlaceholderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A9F2991DA6D46500447E36 /* PlaceholderCell.swift */; };
 		36A9F29C1DA6D47600447E36 /* PlaceholderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36A9F29B1DA6D47600447E36 /* PlaceholderCell.xib */; };
@@ -39,20 +40,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3649745E1DA69C9C0040B3F1 /* TRModularCameraView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRModularCameraView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3649745E1DA69C9C0040B3F1 /* TAModularCameraView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TAModularCameraView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		364974611DA69C9C0040B3F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		364974631DA69C9C0040B3F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		364974661DA69C9C0040B3F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		364974681DA69C9C0040B3F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3649746B1DA69C9C0040B3F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3649746D1DA69C9C0040B3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		364974721DA69C9C0040B3F1 /* TRModularCameraViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRModularCameraViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		364974761DA69C9C0040B3F1 /* TRModularCameraViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRModularCameraViewTests.swift; sourceTree = "<group>"; };
+		364974721DA69C9C0040B3F1 /* TAModularCameraViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TAModularCameraViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		364974761DA69C9C0040B3F1 /* TAModularCameraViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAModularCameraViewTests.swift; sourceTree = "<group>"; };
 		364974781DA69C9C0040B3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3649747D1DA69C9C0040B3F1 /* TRModularCameraViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRModularCameraViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		364974811DA69C9C0040B3F1 /* TRModularCameraViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRModularCameraViewUITests.swift; sourceTree = "<group>"; };
+		3649747D1DA69C9C0040B3F1 /* TAModularCameraViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TAModularCameraViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		364974811DA69C9C0040B3F1 /* TAModularCameraViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAModularCameraViewUITests.swift; sourceTree = "<group>"; };
 		364974831DA69C9C0040B3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3649748F1DA69CBC0040B3F1 /* CameraViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraViewCell.xib; sourceTree = "<group>"; };
+		3682B60E1DABEFD80017828B /* FrontCameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontCameraView.swift; sourceTree = "<group>"; };
 		36A9F2941DA6D1E900447E36 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		36A9F2991DA6D46500447E36 /* PlaceholderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceholderCell.swift; sourceTree = "<group>"; };
 		36A9F29B1DA6D47600447E36 /* PlaceholderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaceholderCell.xib; sourceTree = "<group>"; };
@@ -87,9 +89,9 @@
 		364974551DA69C9C0040B3F1 = {
 			isa = PBXGroup;
 			children = (
-				364974601DA69C9C0040B3F1 /* TRModularCameraView */,
-				364974751DA69C9C0040B3F1 /* TRModularCameraViewTests */,
-				364974801DA69C9C0040B3F1 /* TRModularCameraViewUITests */,
+				364974601DA69C9C0040B3F1 /* TAModularCameraView */,
+				364974751DA69C9C0040B3F1 /* TAModularCameraViewTests */,
+				364974801DA69C9C0040B3F1 /* TAModularCameraViewUITests */,
 				3649745F1DA69C9C0040B3F1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,14 +99,14 @@
 		3649745F1DA69C9C0040B3F1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3649745E1DA69C9C0040B3F1 /* TRModularCameraView.app */,
-				364974721DA69C9C0040B3F1 /* TRModularCameraViewTests.xctest */,
-				3649747D1DA69C9C0040B3F1 /* TRModularCameraViewUITests.xctest */,
+				3649745E1DA69C9C0040B3F1 /* TAModularCameraView.app */,
+				364974721DA69C9C0040B3F1 /* TAModularCameraViewTests.xctest */,
+				3649747D1DA69C9C0040B3F1 /* TAModularCameraViewUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		364974601DA69C9C0040B3F1 /* TRModularCameraView */ = {
+		364974601DA69C9C0040B3F1 /* TAModularCameraView */ = {
 			isa = PBXGroup;
 			children = (
 				364974611DA69C9C0040B3F1 /* AppDelegate.swift */,
@@ -116,24 +118,27 @@
 				3649746A1DA69C9C0040B3F1 /* LaunchScreen.storyboard */,
 				3649746D1DA69C9C0040B3F1 /* Info.plist */,
 			);
+			name = TAModularCameraView;
 			path = TRModularCameraView;
 			sourceTree = "<group>";
 		};
-		364974751DA69C9C0040B3F1 /* TRModularCameraViewTests */ = {
+		364974751DA69C9C0040B3F1 /* TAModularCameraViewTests */ = {
 			isa = PBXGroup;
 			children = (
-				364974761DA69C9C0040B3F1 /* TRModularCameraViewTests.swift */,
+				364974761DA69C9C0040B3F1 /* TAModularCameraViewTests.swift */,
 				364974781DA69C9C0040B3F1 /* Info.plist */,
 			);
+			name = TAModularCameraViewTests;
 			path = TRModularCameraViewTests;
 			sourceTree = "<group>";
 		};
-		364974801DA69C9C0040B3F1 /* TRModularCameraViewUITests */ = {
+		364974801DA69C9C0040B3F1 /* TAModularCameraViewUITests */ = {
 			isa = PBXGroup;
 			children = (
-				364974811DA69C9C0040B3F1 /* TRModularCameraViewUITests.swift */,
+				364974811DA69C9C0040B3F1 /* TAModularCameraViewUITests.swift */,
 				364974831DA69C9C0040B3F1 /* Info.plist */,
 			);
+			name = TAModularCameraViewUITests;
 			path = TRModularCameraViewUITests;
 			sourceTree = "<group>";
 		};
@@ -160,6 +165,7 @@
 			children = (
 				36A9F2991DA6D46500447E36 /* PlaceholderCell.swift */,
 				36A9F29D1DA6DA1800447E36 /* CameraViewCell.swift */,
+				3682B60E1DABEFD80017828B /* FrontCameraView.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -167,9 +173,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3649745D1DA69C9C0040B3F1 /* TRModularCameraView */ = {
+		3649745D1DA69C9C0040B3F1 /* TAModularCameraView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 364974861DA69C9C0040B3F1 /* Build configuration list for PBXNativeTarget "TRModularCameraView" */;
+			buildConfigurationList = 364974861DA69C9C0040B3F1 /* Build configuration list for PBXNativeTarget "TAModularCameraView" */;
 			buildPhases = (
 				3649745A1DA69C9C0040B3F1 /* Sources */,
 				3649745B1DA69C9C0040B3F1 /* Frameworks */,
@@ -179,14 +185,14 @@
 			);
 			dependencies = (
 			);
-			name = TRModularCameraView;
+			name = TAModularCameraView;
 			productName = TRModularCameraView;
-			productReference = 3649745E1DA69C9C0040B3F1 /* TRModularCameraView.app */;
+			productReference = 3649745E1DA69C9C0040B3F1 /* TAModularCameraView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		364974711DA69C9C0040B3F1 /* TRModularCameraViewTests */ = {
+		364974711DA69C9C0040B3F1 /* TAModularCameraViewTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 364974891DA69C9C0040B3F1 /* Build configuration list for PBXNativeTarget "TRModularCameraViewTests" */;
+			buildConfigurationList = 364974891DA69C9C0040B3F1 /* Build configuration list for PBXNativeTarget "TAModularCameraViewTests" */;
 			buildPhases = (
 				3649746E1DA69C9C0040B3F1 /* Sources */,
 				3649746F1DA69C9C0040B3F1 /* Frameworks */,
@@ -197,14 +203,14 @@
 			dependencies = (
 				364974741DA69C9C0040B3F1 /* PBXTargetDependency */,
 			);
-			name = TRModularCameraViewTests;
+			name = TAModularCameraViewTests;
 			productName = TRModularCameraViewTests;
-			productReference = 364974721DA69C9C0040B3F1 /* TRModularCameraViewTests.xctest */;
+			productReference = 364974721DA69C9C0040B3F1 /* TAModularCameraViewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3649747C1DA69C9C0040B3F1 /* TRModularCameraViewUITests */ = {
+		3649747C1DA69C9C0040B3F1 /* TAModularCameraViewUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3649748C1DA69C9C0040B3F1 /* Build configuration list for PBXNativeTarget "TRModularCameraViewUITests" */;
+			buildConfigurationList = 3649748C1DA69C9C0040B3F1 /* Build configuration list for PBXNativeTarget "TAModularCameraViewUITests" */;
 			buildPhases = (
 				364974791DA69C9C0040B3F1 /* Sources */,
 				3649747A1DA69C9C0040B3F1 /* Frameworks */,
@@ -215,9 +221,9 @@
 			dependencies = (
 				3649747F1DA69C9C0040B3F1 /* PBXTargetDependency */,
 			);
-			name = TRModularCameraViewUITests;
+			name = TAModularCameraViewUITests;
 			productName = TRModularCameraViewUITests;
-			productReference = 3649747D1DA69C9C0040B3F1 /* TRModularCameraViewUITests.xctest */;
+			productReference = 3649747D1DA69C9C0040B3F1 /* TAModularCameraViewUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -249,7 +255,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 364974591DA69C9C0040B3F1 /* Build configuration list for PBXProject "TRModularCameraView" */;
+			buildConfigurationList = 364974591DA69C9C0040B3F1 /* Build configuration list for PBXProject "TAModularCameraView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -262,9 +268,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3649745D1DA69C9C0040B3F1 /* TRModularCameraView */,
-				364974711DA69C9C0040B3F1 /* TRModularCameraViewTests */,
-				3649747C1DA69C9C0040B3F1 /* TRModularCameraViewUITests */,
+				3649745D1DA69C9C0040B3F1 /* TAModularCameraView */,
+				364974711DA69C9C0040B3F1 /* TAModularCameraViewTests */,
+				3649747C1DA69C9C0040B3F1 /* TAModularCameraViewUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -308,6 +314,7 @@
 				36A9F29E1DA6DA1800447E36 /* CameraViewCell.swift in Sources */,
 				36A9F2951DA6D1E900447E36 /* Extensions.swift in Sources */,
 				36A9F29A1DA6D46500447E36 /* PlaceholderCell.swift in Sources */,
+				3682B60F1DABEFD80017828B /* FrontCameraView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,7 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				364974771DA69C9C0040B3F1 /* TRModularCameraViewTests.swift in Sources */,
+				364974771DA69C9C0040B3F1 /* TAModularCameraViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,7 +330,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				364974821DA69C9C0040B3F1 /* TRModularCameraViewUITests.swift in Sources */,
+				364974821DA69C9C0040B3F1 /* TAModularCameraViewUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,12 +339,12 @@
 /* Begin PBXTargetDependency section */
 		364974741DA69C9C0040B3F1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3649745D1DA69C9C0040B3F1 /* TRModularCameraView */;
+			target = 3649745D1DA69C9C0040B3F1 /* TAModularCameraView */;
 			targetProxy = 364974731DA69C9C0040B3F1 /* PBXContainerItemProxy */;
 		};
 		3649747F1DA69C9C0040B3F1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3649745D1DA69C9C0040B3F1 /* TRModularCameraView */;
+			target = 3649745D1DA69C9C0040B3F1 /* TAModularCameraView */;
 			targetProxy = 3649747E1DA69C9C0040B3F1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -462,7 +469,7 @@
 				DEVELOPMENT_TEAM = 8TWVWBQE3T;
 				INFOPLIST_FILE = TRModularCameraView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = tangert.TRModularCameraView;
+				PRODUCT_BUNDLE_IDENTIFIER = tangert.TAModularCameraView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -475,7 +482,7 @@
 				DEVELOPMENT_TEAM = 8TWVWBQE3T;
 				INFOPLIST_FILE = TRModularCameraView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = tangert.TRModularCameraView;
+				PRODUCT_BUNDLE_IDENTIFIER = tangert.TAModularCameraView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -492,7 +499,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = tangert.TRModularCameraViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TRModularCameraView.app/TRModularCameraView";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TAModularCameraView.app/TAModularCameraView";
 			};
 			name = Debug;
 		};
@@ -507,7 +514,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = tangert.TRModularCameraViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TRModularCameraView.app/TRModularCameraView";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TAModularCameraView.app/TAModularCameraView";
 			};
 			name = Release;
 		};
@@ -542,7 +549,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		364974591DA69C9C0040B3F1 /* Build configuration list for PBXProject "TRModularCameraView" */ = {
+		364974591DA69C9C0040B3F1 /* Build configuration list for PBXProject "TAModularCameraView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				364974841DA69C9C0040B3F1 /* Debug */,
@@ -551,7 +558,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		364974861DA69C9C0040B3F1 /* Build configuration list for PBXNativeTarget "TRModularCameraView" */ = {
+		364974861DA69C9C0040B3F1 /* Build configuration list for PBXNativeTarget "TAModularCameraView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				364974871DA69C9C0040B3F1 /* Debug */,
@@ -560,7 +567,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		364974891DA69C9C0040B3F1 /* Build configuration list for PBXNativeTarget "TRModularCameraViewTests" */ = {
+		364974891DA69C9C0040B3F1 /* Build configuration list for PBXNativeTarget "TAModularCameraViewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3649748A1DA69C9C0040B3F1 /* Debug */,
@@ -569,7 +576,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3649748C1DA69C9C0040B3F1 /* Build configuration list for PBXNativeTarget "TRModularCameraViewUITests" */ = {
+		3649748C1DA69C9C0040B3F1 /* Build configuration list for PBXNativeTarget "TAModularCameraViewUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3649748D1DA69C9C0040B3F1 /* Debug */,

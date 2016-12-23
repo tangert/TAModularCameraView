@@ -7,9 +7,9 @@
 //
 
 import XCTest
-@testable import TRModularCameraView
+@testable import TAModularCameraView
 
-class TRModularCameraViewTests: XCTestCase {
+class TAModularCameraViewTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

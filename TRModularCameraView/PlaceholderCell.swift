@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class PlaceholderCell : UITableViewCell {
+class PlaceholderCell : UICollectionViewCell {
 
     @IBOutlet weak var placeholderImage: UIImageView!
     

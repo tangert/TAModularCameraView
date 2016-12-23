@@ -7,11 +7,11 @@
 //
 
 import Foundation
-import AVKit
+import AVFoundation
 import UIKit
 
-class CameraViewCell: UITableViewCell {
+class CameraViewCell: UICollectionViewCell {
     
-    @IBOutlet weak var cameraView: UIImageView!
-    
+    @IBOutlet weak var cameraView: FrontCameraView!
+     
 }
